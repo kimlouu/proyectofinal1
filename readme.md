@@ -11,8 +11,8 @@ https://kimlouu.github.io/proyectofinal1/
   **Objetivos del sitio:** Tener una vitrina web inicial en donde se pueda apreciar el trabajo de la Editorial tanto para quienes quieran adquirir libros, quienes necesiten la prestación de servicios editoriales o quienes quieran publicar con la misma. La idea es que el sitio pueda ser escalable y en un futuro considerar la compra directa dentro del mismo sitio, por el momento la plataforma para la venta de libros es una plataforma externa.
 
 - **Navbar con navegación de 3 elementos + brand**
-    - La editorial
-    - Publica
+    - La Editorial
+    - Catálogo
       Servicios
       Contacto
 
@@ -64,6 +64,6 @@ https://kimlouu.github.io/proyectofinal1/
     - Font-awesome
 
 ### Sketch Desktop Version:
-![Sketch Desktop Version](assets/img/sketch_d.jpg)
+![Sketch Desktop Version](assets/img/sketch-d.jpg)
 
 ### Estructura:

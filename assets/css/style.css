@@ -25,27 +25,79 @@ h2 {
 h3 {
     font-family: 'Inknut Antiqua', serif;
     font-size: 25px;
-    margin-bottom: 30px;
+
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container-fluid{
+  padding: 0;
 }
 
 /*NAVBAR*/
 .navbar {
     height: 150px;
     margin-bottom: 0;
-    border-bottom: 1px solid #eeeeee;
+    background-color: white;
+    -webkit-box-shadow: 0px 27px 114px 7px rgba(0,0,0,0.11);
+-moz-box-shadow: 0px 27px 114px 7px rgba(0,0,0,0.11);
+box-shadow: 0px 27px 114px 7px rgba(0,0,0,0.11);
 }
 
 .nav-logo {
     width: 100px;
 }
 
+.navbar-toggle {
+    background-color: white;
+    border: 1px solid black !important;
+    border-radius: 0;
+    margin-top: 15px;
+}
+
+.navbar-toggle:hover {
+    background-color: black !important;
+}
+
+.navbar-toggle:hover .icon-bar {
+    background-color: white !important;
+}
+
+.navbar-toggle:focus {
+    background-color: #009999 !important;
+    border: 1px solid #009999 !important;
+}
+
+.navbar-toggle:focus .icon-bar {
+    background-color: white !important;
+}
+
+.icon-bar {
+    background-color: #009999 !important;
+    height: 4px !important;
+}
+
 .navbar-nav li a {
     color: black;
     font-family: 'Inknut Antiqua', serif;
+    font-size: 13px;
+    padding-top: 65px;
+}
+
+.navbar-nav li a:hover {
+    color: black;
+    background-color: #eeeeee;
+}
+.navbar-nav .active a{
+    background-color: #009999;
+    color: white;
+
 }
 
 .navbar-right {
-    padding-top: 50px;
+  height: 100px;
+  background-color: white;
 }
 
 /*HEADER*/
@@ -57,6 +109,8 @@ h3 {
     background-color: white;
     overflow: hidden;
     padding-top: 80px;
+    margin-top: 150px;
+    margin-bottom: 0;
 }
 
 .jumbotron p {
@@ -99,7 +153,6 @@ h3 {
 
 .down-icon {
     text-align: center;
-    background-color: white;
     padding: 12px 16px;
     border: 1px solid black;
     color: black;
@@ -138,7 +191,7 @@ h3 {
 .big-book-caption-text {
     width: 80%;
     margin-left: 10%;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 
 .big-book-caption-text h3 {
@@ -158,7 +211,7 @@ h3 {
 .small-book-caption-text {
     width: 80%;
     margin-left: 10%;
-    margin-top: 30%;
+    margin-top: 18%;
 }
 
 .small-book-caption-text h3 {
@@ -204,8 +257,13 @@ h3 {
 
 .libreria {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.libreria h4{
+  margin-top: 30px;
+}
 .libreria img {
     width: 100px;
 }
@@ -257,9 +315,109 @@ h3 {
     text-align: center;
     padding: 80px;
 }
-
-@media (min-width: 768px) and (max-width: 1200px) {
-  .libreria {
-      margin-top: 40px;
-  }
+.eventos-img{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
+@media (max-width: 767px) {
+    .navbar {
+        height: 70px;
+    }
+
+    .nav-logo {
+        width: 40px;
+    }
+    .navbar-nav li a {
+        padding: 10px;
+        text-align: center;
+    }
+    .navbar-right{
+      height: auto;
+      border-bottom: 5px solid black;
+
+    }
+    .jumbotron{
+      margin-top: 70px;
+      background-image: none;
+      text-align: center;
+      padding-top: 5px;
+      margin-top: 25px;
+    }
+    .jumbotron h1{
+      font-size: 30px !important;
+    }
+    .jumbotron p{
+      font-size: 14px !important;
+    }
+    .header-xs{
+      margin-top: 70px;
+    }
+    .big-book-caption-text {
+        margin-top: 20%;
+    }
+
+    .small-book-caption-text {
+      margin-top: 32%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        height: 95px;
+    }
+
+    .nav-logo {
+        width: 60px;
+    }
+    .navbar-right{
+      height: 95px;
+    }
+    .navbar-nav li a {
+        padding-top: 35px;
+    }
+    .jumbotron{
+      margin-top: 95px;
+    }
+    .jumbotron h1{
+      font-size: 40px !important;
+    }
+    .big-book-caption-text {
+        margin-top: 37%;
+    }
+
+    .small-book-caption-text {
+      margin-top: 25%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron h1{
+    font-size: 45px !important;
+  }
+  .big-book-caption-text {
+      margin-top: 29%;
+  }
+  .big-book-caption-text h3 {
+      font-size: 25px;
+  }
+
+  .big-book-caption-text p {
+      font-size: 18px;
+  }
+
+  .small-book-caption-text {
+    margin-top: 15%;
+  }
+  .small-book-caption-text h3 {
+      font-size: 19px;
+  }
+
+  .small-book-caption-text p {
+      font-size: 15px;
+  }
+
+}
+
+@media (min-width: 1200px) {}
