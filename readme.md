@@ -1,6 +1,6 @@
 # Primer entregable - Proyecto Final
 
-https://kimlouu.github.io/proyectofinal1/
+https://kimlouu.github.io/proyectofinal1/index.html
 
 ## Editorial AM
 
