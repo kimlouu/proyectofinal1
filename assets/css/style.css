@@ -1,0 +1,265 @@
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+h1 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 50px !important;
+}
+
+h2 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 40px !important;
+    padding: 40px 0 60px 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+/*NAVBAR*/
+.navbar {
+    height: 150px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.navbar-nav li a {
+    color: black;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.navbar-right {
+    padding-top: 50px;
+}
+
+/*HEADER*/
+.jumbotron {
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.jumbotron p {
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.label {
+    color: black;
+    font-family: 'Lato', serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 5px 15px;
+}
+
+.btn-header {
+    background-color: black;
+    border-radius: 0;
+    color: White;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btn-header:hover {
+    background-color: #009999;
+    color: White;
+}
+
+.down {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.down-icon {
+    text-align: center;
+    background-color: white;
+    padding: 12px 16px;
+    border: 1px solid black;
+    color: black;
+}
+
+.down-icon:hover {
+    background-color: #009999;
+    border: 1px solid white;
+    color: white;
+}
+
+/*CATÁLOGO*/
+.book-thumbail {
+    padding: 0;
+}
+
+.img-book-thumb {
+    position: relative;
+}
+
+.book-caption {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: white;
+    height: 100%;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    opacity: 0;
+}
+
+.book-caption:hover {
+    opacity: 1;
+}
+
+.big-book-caption-text {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+.big-book-caption-text h3 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 35px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #009999;
+}
+
+.big-book-caption-text p {
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.small-book-caption-text {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30%;
+}
+
+.small-book-caption-text h3 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #009999;
+}
+
+.small-book-caption-text p {
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.load {
+    background-color: black;
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+
+.btn-secondary {
+    border: 2px solid white;
+    border-radius: 0;
+    color: white;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btn-secondary:hover {
+    background-color: #009999;
+    color: White;
+    border: 2px solid #009999;
+}
+
+/*Distribución*/
+#distribuidoras {
+    margin-top: 70px;
+}
+
+.libreria {
+    text-align: center;
+}
+
+.libreria img {
+    width: 100px;
+}
+
+.btn-map {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Lato', serif;
+    padding: 3px 10px;
+}
+
+.btn-map:hover {
+    background-color: #009999;
+    color: white;
+}
+
+.load-white {
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding: 80px;
+}
+
+.btn-secondary-white {
+    border: 2px solid black;
+    border-radius: 0;
+    color: black;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.btn-secondary-white:hover {
+    background-color: #009999;
+    color: White;
+    border: 2px solid #009999;
+}
+
+/*EVENTOS*/
+#eventos {
+    background-color: #eeefff;
+}
+
+.load-gray {
+    background-color: #eeefff;
+    display: block;
+    text-align: center;
+    padding: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .libreria {
+      margin-top: 40px;
+  }
+}
